@@ -12,6 +12,7 @@ prompt pure
 # Prompt styles.
 zstyle :prompt:pure:prompt:error color 1
 zstyle :prompt:pure:prompt:success color 15
+zstyle :prompt:pure:git:stash show yes
 
 # Customize prompt
 # see https://github.com/sindresorhus/pure/wiki/Customizations,-hacks-and-tweaks
