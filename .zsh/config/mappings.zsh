@@ -10,8 +10,6 @@ bindkey -M viins ' ' custom-expand-global-alias # Space key to expand global ali
 bindkey -M viins '^Y' custom-insert-last-typed-word # Insert last typed word for quick copy-paste.
 bindkey -M viins '^R' custom-fzf-launch-from-history # Select command from history into the command line (same as fzf-history-widget).
 bindkey -M viins '^P' custom-fzf-select # Paste the selected files and directories into the command-line (same as fzf-cd-widget+fzf-file-widget).
-bindkey -M viins '^A' custom-fzf-fasd-widget # Fasd fast jump with fzf
-bindkey -M viins '^Z' toggle-fzf-tab # Toggle tab completion replace with fzf
 
 # Normal Mode
 bindkey -M vicmd 'j' down-line # Override down-line-or-history.

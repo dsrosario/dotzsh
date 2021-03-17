@@ -130,9 +130,6 @@ export LESS_TERMCAP_so=$'\e[1;33m' # Begin standout mode.
 export LESS_TERMCAP_ue=$'\e[24;0m' # Exit underline mode.
 export LESS_TERMCAP_us=$'\e[4;1;38;5;250m' # Begin underline mode.
 
-# fasd
-export _FASD_DATA=$ZDOTDIR/cache/.fasd
-
 # golang, from http://sourabhbajaj.com/mac-setup/Go/README.html
 export GOPATH=$HOME/go # default
 export GOROOT=/usr/local/opt/go/libexec

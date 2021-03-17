@@ -64,11 +64,3 @@ if [[ -f "$HOME/.fzf.zsh" ]] source "$HOME/.fzf.zsh"
 # see https://junegunn.kr/2016/07/fzf-git/
 #source "$ZDOTDIR/plugins/fzf-gems/fzf_git_functions.sh"
 #source "$ZDOTDIR/plugins/fzf-gems/fzf_git_keybindings.zsh"
-
-# fasd (.01s)
-fasd_cache="$ZDOTDIR/cache/fasd-init-cache.$UID.zsh"
-if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
-	fasd --init auto >| "$fasd_cache"
-fi
-source "$fasd_cache"
-unset fasd_cache
