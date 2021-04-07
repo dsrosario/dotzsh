@@ -21,4 +21,5 @@ foreach defer_piece (
 	zsh-defer source $ZDOTDIR/config/$defer_piece
 }
 
+[ -f "$HOME/.zshrc_hostspecific" ] && . "$HOME/.zshrc_hostspecific" || true
 #zprof
