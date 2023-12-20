@@ -82,12 +82,12 @@ export LANGUAGE='en_US.UTF-8'
 
 # man
 export MANWIDTH='100' # Fixed line width for man pages.
-export MANPAGER="nvim +'set filetype=man' -"
+export MANPAGER="less"
 
 # nvim
 export NVIM_RPLUGIN_MANIFEST="$HOME/.vim/cache/share/rplugin.vim"
 	# Create symbolic links for neovim and vim configs.
-	if ! [[ -L ~/.vim/vimrc ]] { ln -s ~/.vim/init.vim ~/.vim/vimrc }
+	#if ! [[ -L ~/.vim/vimrc ]] { ln -s ~/.vim/init.vim ~/.vim/vimrc }
 	if ! [[ -L ~/.config/nvim ]] { ln -s ~/.vim ~/.config/nvim }
 
 # fzf

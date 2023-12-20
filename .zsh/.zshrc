@@ -15,7 +15,7 @@ foreach defer_piece (
 	widgets.zsh
 	plugins.zsh
 	prompt.zsh
-	mappings.zsh
+#	mappings.zsh
 	iterm2_shell_integration.zsh
 ) {
 	zsh-defer source $ZDOTDIR/config/$defer_piece
@@ -23,3 +23,5 @@ foreach defer_piece (
 
 [ -f "$HOME/.zshrc_hostspecific" ] && . "$HOME/.zshrc_hostspecific" || true
 #zprof
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
